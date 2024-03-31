@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EMI Calculator</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div>
+      <img
+        src="https://www.cashone.com/blog/wp-content/uploads/2015/01/benefits-of-Loans.jpg"
+      />
+      <table>
+        <tr>
+          <td class="col">Amount($)*:</td>
+        </tr>
+        <tr>
+          <td>
+            <input type="text" id="loan" placeholder="Loan Amount" />
+          </td>
+        </tr>
+        <tr>
+          <td class="col">Loan Tenure(in years)*:</td>
+        </tr>
+        <tr>
+          <td><input type="text" id="time" placeholder="Tenure in years" /></td>
+        </tr>
+        <tr>
+          <td class="col">Interest(in %)*:</td>
+        </tr>
+        <tr>
+          <td><input type="text" id="interest" placeholder="ROI" /></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button id="calcl">Calculate EMI</button></td>
+        </tr>
+        <tr>
+          <td colspan="2"><p id="EMI" class="col"></p></td>
+        </tr>
+      </table>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
